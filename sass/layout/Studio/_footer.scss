@@ -14,7 +14,12 @@
   list-style: none;
 }
 
-.map-item {
+.footer-contact-list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-contact-list__map-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -29,7 +34,7 @@
   }
 }
 
-.email {
+.footer-contact-list__email {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -44,7 +49,7 @@
   }
 }
 
-.tel {
+.footer-contact-list__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -59,7 +64,7 @@
   }
 }
 
-.footer-contact:not(:last-child) {
+.footer-contact-list__footer-contact:not(:last-child) {
   padding-bottom: 9px;
 }
 
@@ -77,10 +82,9 @@
 .footer-soc {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
-.footer-list {
+.footer-soc__footer-list {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -90,7 +94,7 @@
   }
 }
 
-.footer-link {
+.footer-soc__footer-link {
   fill: var(--title);
   width: 100%;
   height: 100%;
@@ -135,13 +139,13 @@
   margin-bottom: 20 px;
 }
 
-.footer-container-second {
+.footer-subscribe__footer-container-second {
   position: relative;
   width: 200px;
   height: 50px;
 }
 
-.footer-subscribe-input {
+.footer-subscribe__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -156,7 +160,7 @@
   }
 }
 
-.footer-btn {
+.footer-subscribe__footer-btn {
   width: 200px;
   height: 50px;
   background-color: #2196f3;
@@ -178,7 +182,7 @@
   color: #ffffff;
 }
 
-.footer-svg-telegram {
+.footer-subscribe__footer-svg-telegram {
   position: absolute;
   right: 28px;
   top: 13px;

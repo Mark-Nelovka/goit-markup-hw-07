@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 
-.clients {
+.section-company__clients {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-.list-company {
+.companys__list-company {
   width: 170px;
   height: 92px;
   &:not(:last-child) {
@@ -27,7 +27,7 @@
   }
 }
 
-.link-company {
+.companys__link-company {
   width: 100%;
   height: 100%;
   display: flex;
@@ -43,12 +43,12 @@
   }
 }
 
-.company-icon {
+.companys__company-icon {
   fill: #afb1b8;
   transition-duration: var(--time-animation);
   transition-timing-function: var(--time-animation);
-  .link-company:hover &,
-  .link-company:focus & {
+  .companys__link-company:hover &,
+  .companys__link-company:focus & {
     fill: #2196f3;
   }
 }
