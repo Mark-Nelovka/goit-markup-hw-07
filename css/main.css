@@ -993,8 +993,8 @@ ul {
           transform: translate(-50%, -50%);
 }
 
-.modal-link:hover .modal__img,
-.modal-link:focus .modal__img {
+.modal__link:hover .modal__img,
+.modal__link:focus .modal__img {
   fill: var(--logo);
 }
 
